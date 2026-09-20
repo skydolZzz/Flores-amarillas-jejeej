@@ -1,4 +1,4 @@
-
+// te amo amor jejejeje
 const loginContainer = document.getElementById('login-container');
 const giftContainer = document.getElementById('gift-container');
 const passwordInput = document.getElementById('password-input');
@@ -11,11 +11,9 @@ function verificarContrasena() {
     const passwordIngresada = passwordInput.value;
 
     if (passwordIngresada === CONTRASEÑA_CORRECTA) {
-
         loginContainer.classList.add('hidden');
         giftContainer.classList.remove('hidden');
         
-
         setInterval(createFlower, 300);
     } else {
         errorMessage.innerText = "asi no es mi gorrion jeejje";
