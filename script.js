@@ -1,4 +1,4 @@
-#te amo amor jejejeje
+
 const loginContainer = document.getElementById('login-container');
 const giftContainer = document.getElementById('gift-container');
 const passwordInput = document.getElementById('password-input');
